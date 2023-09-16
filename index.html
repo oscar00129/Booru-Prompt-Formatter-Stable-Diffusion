@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booru Prompt Formatter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header><h1 class="header">{{ data.app_title }}</h1></header>
+        <textarea class="textarea" cols="30" rows="10" v-bind:placeholder="data.input_placeholder" v-model="textAreaData"></textarea>
+        <button v-on:click="formatText" class="button">{{ data.submit_button }}</button>
+        <textarea v-model="promptText" class="textarea" cols="30" rows="10"></textarea>
+        <footer>{{data.github}}<a :href="data.github_link">{{data.github_name}}</a></footer>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

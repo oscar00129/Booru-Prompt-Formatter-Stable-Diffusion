@@ -1,0 +1,71 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    background-color: #0b0f19;
+    font-family: 'Source Sans Pro', 'ui-sans-serif', 'system-ui', sans-serif;
+    font-size: 14px;
+    color: #f3f4f6;
+    font-weight: 400;
+}
+
+#app {
+    padding: 1rem;
+}
+
+#app > * {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.header{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.textarea {
+    width: 40rem;
+    padding: 1rem;
+    background-color: #1f2937;
+    border-color: #374151;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .4rem;
+}
+
+.button {
+    background-color: #f97316;
+    border-radius: .4rem;
+    padding: 1rem .5rem 1rem .5rem;
+    width: 42.1rem;
+    border-color: #f97316;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #ff8f3e;
+}
+
+@media screen and (max-width: 767px) {
+    .textarea {
+        width: 91%;
+    }
+    .button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .textarea {
+        width: 96%;
+    }
+    .button {
+        width: 100%;
+    }
+}

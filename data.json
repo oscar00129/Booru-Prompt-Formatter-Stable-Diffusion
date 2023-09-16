@@ -1,0 +1,8 @@
+{
+    "app_title": "Booru Tags Formatter",
+    "input_placeholder": "Insert here booru tags. \nExample: \n ? 1girl 4.7M\n black background 50k\n glasses 185017\n long hair (56)",
+    "submit_button": "Format",
+    "github": "Github: ",
+    "github_link": "https://github.com/oscar00129",
+    "github_name": "oscar00129"
+}
